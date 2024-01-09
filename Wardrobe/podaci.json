@@ -1,0 +1,74 @@
+{
+  "vrsta": [
+    "hlace",
+    "suknja",
+    "majica"
+  ],
+  "velicina": [
+    "XXS",
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "slike": [
+    {
+      "naziv": "hlace",
+      "slika": "hlace.jpg"
+    },
+    {
+      "naziv": "suknja",
+      "slika": "suknja.jpg"
+    },
+    {
+      "naziv": "majica",
+      "slika": "majica.jpg"
+    }
+  ],
+  "garderoba": [
+    {
+      "vrsta": "suknja",
+      "velicina": "XS",
+      "boja": "bijela",
+      "slika": "suknja.jpg",
+      "id": 1
+    },
+    {
+      "vrsta": "hlace",
+      "velicina": "L",
+      "boja": "zuta",
+      "slika": "hlace.jpg",
+      "id": 3
+    },
+    {
+      "vrsta": "majica",
+      "velicina": "XXS",
+      "boja": "plava",
+      "slika": "majica.jpg",
+      "id": 4
+    },
+    {
+      "vrsta": "hlace",
+      "velicina": "L",
+      "boja": "crvena",
+      "slika": "hlace.jpg",
+      "id": 6
+    },
+    {
+      "vrsta": "suknja",
+      "velicina": "M",
+      "boja": "crna",
+      "slika": "suknja.jpg",
+      "id": 7
+    },
+    {
+      "vrsta": "majica",
+      "velicina": "M",
+      "boja": "crna",
+      "slika": "majica.jpg",
+      "id": 8
+    }
+  ]
+}

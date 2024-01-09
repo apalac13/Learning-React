@@ -1,0 +1,85 @@
+/*
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 /30 / 36 / 44 / 52 / 62 / 74 / 86 /98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ */
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  font-family: sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  background-color: rgba(255, 255, 255, 0.94);
+  border: 2px solid #7fb5e6;
+  border-radius: 2rem;
+}
+
+.date {
+  font-size: 1.8rem;
+  color: rgba(39, 53, 70, 0.8);
+}
+
+.teams-result {
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+}
+
+img {
+  width: 13rem;
+  height: 13rem;
+}
+
+.team-name {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #24364a;
+}
+
+.result {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  font-size: 7.4rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.buttons button {
+  font-size: 1.4rem;
+  width: 4rem;
+  height: 4rem;
+
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.94);
+  color: #24364a;
+  cursor: pointer;
+}
+
+.reset-button button {
+  font-size: 2rem;
+  width: 18rem;
+  height: 4rem;
+
+  border: 1px solid rgb(153, 153, 153);
+  border-radius: 1rem;
+  background-color: #d2a758;
+  text-transform: uppercase;
+  color: #24364a;
+  cursor: pointer;
+}
